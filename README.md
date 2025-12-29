@@ -1,0 +1,12 @@
+This is the repository for paper "Value-Aware Digital Twin Synchronization via UAV Data Collection in Disaster Response".
+
+Abstract: abstract：Natural disasters often severely damage communication infrastructure, making timely situational awareness a critical challenge for distributed emergency response.
+UAV-assisted digital twin systems offer a promising solution by collecting data from distributed sensing devices and synchronizing the disaster environment in the virtual domain.
+However, existing studies typically overlook the exponential decay of data value following disasters and tend to fully collect low-value data, which degrades DT synchronization and results in the loss of critical disaster information.
+In this paper, we propose a value-aware data collection and synchronization framework for UAV-assisted DT systems in post-disaster scenarios.
+By jointly considering spatial consistency and DT update ratio, we formulate a data value maximization problem.
+The original problem is decomposed, and an efficient iterative algorithm with low time complexity is developed to explore the feasible solution space and progressively improve the solution quality.
+The convergence and effectiveness of the proposed algorithm are established through theoretical analysis and extensive simulations.
+Simulation results based on real disaster datasets demonstrate that the accumulative data value is up to 15.8% higher than that of existing studies.
+
+you can find the proof in file Proof.pdf
